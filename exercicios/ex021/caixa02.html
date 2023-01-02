@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tag</title>
+    <style>
+        body {
+            margin: 0px;
+            font-family: sans-serif;
+            background-color: aquamarine;
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav {
+            padding: 03px;
+            color: white;
+            background-color: rgb(183, 183, 250);
+            box-shadow: 3px 2px 5px 6px rgba(0, 0, 0, 40%);
+        }
+        nav > a {
+            text-decoration: none;
+            margin: 10px;
+            color: rgb(5, 11, 85);
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+            color: aliceblue;
+        }
+        
+        main {
+            box-shadow: 2px 2px 5px 6px rgb(0 0 0 / 40%);
+            border-radius: 10px 0px;
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        article {
+            background-color:rgb(8, 216, 216);
+        }
+        article > aside {
+            text-align: right;
+            color: white;
+            background-color: rgb(6, 108, 155);
+            padding: 2px;
+
+        }
+        footer {
+            color: white;
+            background-color: blue;
+            text-align: center;
+            padding: 60px;
+        }
+        .bola {
+            margin: 10px;
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            border-radius: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>tituloESTRAVAGANTE</h1>
+        <nav>
+            <a href="#">Link</a> 
+            <a href="#">Link</a> 
+            <a href="#">Link</a> 
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <p>MATERIA</p>
+                <article>
+                    <h2>historia do brasil</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut nisi est nihil consectetur architecto quibusdam doloribus laboriosam alias suscipit! Ex deserunt amet ab vero provident optio repellat, cum delectus perferendis.</p>
+                    <aside>
+                        <p>artigo por paulo miguel</p>
+                    </aside>
+                </article>
+        </section>
+    </main>
+    <footer>
+        desenvolvido by tailan
+    </footer>
+    <div class="bola"></div>
+</body>
+</html>

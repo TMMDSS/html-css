@@ -1,0 +1,8 @@
+@charset "utf-8";
+
+body {background-color: lightyellow; font-size: 16px; font-family: 'Segoe UI';}
+
+h1 {color: white; background-color: maroon;}
+h2{color: blue;}
+p {color: purple; text-align: justify; }
+
