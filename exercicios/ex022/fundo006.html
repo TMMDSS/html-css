@@ -6,10 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>fundo fixo de tela</title>
     <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+
         body {
             height: 97vh;
             background-color: black;
-            background-image: url(imagens/wallpaper002.jpg);
+            background-image: url(imagens/wallpaper004.jpg);
             background-position: center center;
             background-repeat: no-repeat; /* repeat, repeat-y, repeat-x*/
             background-size: cover; /*auto, pixels e o contain*/
@@ -25,19 +30,52 @@
             background: black url(imagens/wallpaper002.jpg) center center no-repeat [] fixed ;
             background-size: cover;
 
+        }     
+        header {
+            padding-top: 30px;
+            text-align: center;
+            height: 150px;
+            margin: auto;
+            background-image: url(imagens/wallpaper005.jpg);
         }
+        nav {
+            height: 35px;
+            background-color: purple;
+        }
+        a {
+            color: white;
+            text-decoration: none;
+            padding: 15px;
+            font-size: 1.5em;
+        }
+        a:hover {
+            text-decoration: underline;
+            color: rgb(130, 5, 247);
+        }
+
         main {
-            background-color: white;
-            width: 400px;
+            background-image: url(imagens/wallpaper006.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 750px;
             padding: 10px;
             margin: auto;
             border: 2px double black;
             border-radius: 10px;
-            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.507);
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.500);
         }
     </style>
 </head>
 <body>
+    <header>
+        <h1>texto do header</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique porro ab nulla doloremque aperiam animi itaque soluta temporibus vitae a. Expedita libero et nulla ea ab repellendus ut autem eligendi.</p>
+    </header>
+    <nav>
+        <a href="#">menu</a>
+        <a href="#">noticia</a>
+        <a href="#">sobre</a>
+    </nav>
     <main>
         <h1>texte de imagem de fundo</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis eum quasi officia illo voluptatibus reprehenderit autem id neque at. Ipsa totam necessitatibus nemo modi! Repellendus molestias similique temporibus nesciunt cupiditate!</p>
