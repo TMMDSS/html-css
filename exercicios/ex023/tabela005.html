@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+        table {
+            border-collapse: collapse;
+        }
+        caption {
+            border:  2px dashed red;
+            box-shadow: inset 5px 5px 15px rgba(163, 156, 156, 0.541);
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 8px;
+        }
+        th, td {
+            border:  1px solid black;
+            padding: 8px;
+        }
+        .destaque {
+            background-color: rgba(0, 0, 0, 0.445);
+            color: white;
+        }
+
+        col.cnome {
+            background-color: yellow;
+        }
+        col.csexo {
+            background-color: red;
+        }
+        col.cidade {
+            background-color: lightblue;
+        }
+        col.cprof {
+            background-color: lightgreen;
+        }
+        col.cnas {
+            background-color: lightpink;
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="cnome"> 
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprof">
+            <col class="cnas" span="2">
+        </colgroup>
+        <caption>cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+            <th>Nacionalidade</th>
+            <th>CPF</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>jornalista</td>
+            <td>Brasileiro</td>
+            <td>324.532.22</td>
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td>F</td>
+            <td>24</td>
+            <td>Delegado</td>
+            <td>Brasileiro</td>
+            <td>324.532.22</td>
+        </tr>
+        <tr>
+            <td>João</td>
+            <td>M</td>
+            <td>67</td>
+            <td>Eletricista</td>
+            <td>Brasileiro</td>
+            <td>324.532.22</td>
+        </tr>
+        <tr class="destaque">
+            <td>Paula</td>
+            <td>F</td>
+            <td>35</td>
+            <td>Advogada</td>
+            <td>Americano</td>
+            <td>xx.xxx.xxx.xx</td>
+        </tr>
+        <tr>
+            <td>Antonia</td>
+            <td>F</td>
+            <td>46</td>
+            <td>Pedreiro</td>
+            <td>Brasileiro</td>
+            <td>324.532.22</td>
+        </tr>
+        <tr>
+            <td>Joaquim</td>
+            <td>M</td>
+            <td>43</td>
+            <td>Jardineiro</td>
+            <td>Brasileiro</td>
+            <td>324.532.22</td>
+        </tr>
+        <tr>
+            <td>Marcos</td>
+            <td>M</td>
+            <td>53</td>
+            <td>Domestico</td>
+            <td>Brasileiro</td>
+            <td>324.532.22</td>
+        </tr>
+        <tr class="destaque">
+            <td>Roberto</td>
+            <td>M</td>
+            <td>34</td>
+            <td>Leiteiro</td>
+            <td>Americano</td>
+            <td>xx.xxx.xxx.xx</td>
+        </tr>
+        <tr>
+            <td>Luiza</td>
+            <td>F</td>
+            <td>53</td>
+            <td>Marceneiro</td>
+            <td>Brasileiro</td>
+            <td>324.532.22</td>
+        </tr>
+    </table>
+</body>
+</html>
