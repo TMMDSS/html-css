@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+/*todas as demais medias*/
+
+/* Typical Devide Breakpoits
+-----------------------------
+PEQUENAS TELAS: ATE 600PX
+cELULAR: ATE 600PX;
+CELULAR: DE 600PX ATE 768PX;
+TABLET: 768PX ATÉ 992PX;
+DESKTOP: 992PX: ATE 1200PX;
+GRANNDES TELAS: ACIMA DE 1200PX;
+*/
+
+@media screen and (min-width: 768px) {
+    span#burguer {
+        display: none;
+    }
+    menu {
+        display: block;
+    }
+    menu > ul > li {
+        display: inline-block;
+    }
+    main {
+        max-width: 768px; /*tive q Por max-width ao invez de só width*/
+    }
+}
